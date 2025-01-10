@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+    <div class="container">
+        <img src="{{ url_for('static', filename='images/Logo White Background.png') }}" alt="MSU GHI Logo" class="logo">
+        <p>MSU Global Health Initiative is a Student-led non profit organization dedicated to improve healthcare access for communities in need worldwide.</p>
+        <p>Join us today and be the impact!</p>
+        <div class="buttons">
+            <a href="https://groupme.com/join_group/104608855/8l4oulJU" class="btn">Groupme</a>
+            <a href="https://www.linktr.ee/MSU_GHI" class="btn">LinkTree</a>
+            <a href="https://www.instagram.com/ghi_msu/" class="btn">Instagram</a>
+        </div>
+    </div>
+</section>
+{% endblock %}

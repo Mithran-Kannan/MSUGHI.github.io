@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="contact">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>Have questions or want to learn more about MSU GHI? Reach out to us!</p>
+        <p>Email: <a href="mailto:MSUglobalhealthinitiative@gmail.com">MSUglobalhealthinitiative@gmail.com</a></p>
+        <p>Check out our Social Media:</p>
+        <div class="social-links">
+            <a href="https://groupme.com/join_group/104608855/8l4oulJU" class="btn">Groupme</a>
+            <a href="https://www.linktr.ee/MSU_GHI" class="btn">LinkTree</a>
+            <a href="https://www.instagram.com/ghi_msu/" class="btn">Instagram</a>
+        </div>
+        <img src="{{ url_for('static', filename='images/GroupMe QR.jpeg') }}" alt="MSU GHI Logo" class="QR">
+    </div>
+</section>
+{% endblock %}
